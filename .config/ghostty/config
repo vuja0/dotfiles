@@ -2,3 +2,4 @@ term=xterm-256color
 theme = TokyoNight
 font-size = 18
 macos-titlebar-style = tabs
+window-save-state = always
