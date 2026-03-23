@@ -6,3 +6,8 @@ export NVM_DIR="$HOME/.nvm"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+# kitty ssh fix
+if [[ "$TERM" == "xterm-kitty" ]]; then
+  alias ssh='TERM=xterm-256color ssh'
+fi
