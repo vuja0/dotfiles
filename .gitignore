@@ -1,1 +1,5 @@
 .DS_Store
+.config/tmux/plugins/tmux-gruvbox/
+.config/zed/prompts/prompts-library-db.0.mdb/lock.mdb
+.config/tmux/plugins/tpm/
+.config/tmux/plugins/tmux-sensible/
