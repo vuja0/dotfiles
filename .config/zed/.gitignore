@@ -1,3 +1,0 @@
-# Ignore Zed internal database and locks
-.config/zed/prompts/*.mdb
-.config/zed/prompts/lock.mdb
