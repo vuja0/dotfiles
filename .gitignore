@@ -3,3 +3,4 @@
 .config/zed/prompts/prompts-library-db.0.mdb/lock.mdb
 .config/tmux/plugins/tpm/
 .config/tmux/plugins/tmux-sensible/
+.config/zed/prompts/prompts-library-db.0.mdb/data.mdb
