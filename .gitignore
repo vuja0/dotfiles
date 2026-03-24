@@ -13,3 +13,4 @@
 .config/mpd/state
 .config/mpd/log
 .config/mpd/database
+.config/kitty/current-theme.conf
