@@ -1,4 +1,5 @@
 export NVM_DIR="$HOME/.nvm"
+export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 
 #the functions that loads the nvm but only after typing the fake nvm,node,npm command
 load_nvm() {
@@ -13,7 +14,6 @@ npm() { unset -f nvm node npm; load_nvm; npm "$@" }
 
 [[ -f ~/.ng_completion ]] && source ~/.ng_completion
 
-export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
 
 # Fix SSH issues in Kitty by ensuring the remote server understands the terminal type
 if [[ "$TERM" == "xterm-kitty" ]]; then
