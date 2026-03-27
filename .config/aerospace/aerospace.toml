@@ -140,6 +140,7 @@ on-mode-changed = []
     cmd-shift-3 = 'move-node-to-workspace 3'
     cmd-shift-4 = 'move-node-to-workspace 4'
     cmd-shift-5 = 'move-node-to-workspace 5'
+    cmd-shift-6 = 'move-node-to-workspace 6'
 
 
 
@@ -167,6 +168,17 @@ on-mode-changed = []
     alt-shift-k = ['join-with up', 'mode main']
     alt-shift-l = ['join-with right', 'mode main']
 
+    [workspace-to-monitor-force-assignment]
+	# Force Workspace 6 to the MacBook Screen
+	6 = 'Built-in Retina Display'
+
+	# Force Workspaces 1-5 to the Dell External Monitor
+	1 = 'DELL U2722DE'
+	2 = 'DELL U2722DE'
+	3 = 'DELL U2722DE'
+	4 = 'DELL U2722DE'
+	5 = 'DELL U2722DE'
+
 	# Workspace 1: Browsers
 [[on-window-detected]]
 if.app-name-regex-substring = 'browser|safari|chrome|firefox|zen'
@@ -176,4 +188,3 @@ run = 'move-node-to-workspace 1'
 [[on-window-detected]]
 if.app-name-regex-substring = 'terminal|ghostty|kitty'
 run = 'move-node-to-workspace 2'
-
