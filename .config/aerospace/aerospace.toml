@@ -164,3 +164,13 @@ on-mode-changed = []
     alt-shift-j = ['join-with down', 'mode main']
     alt-shift-k = ['join-with up', 'mode main']
     alt-shift-l = ['join-with right', 'mode main']
+	# Workspace 1: Browsers
+[[on-window-detected]]
+if.app-name-regex-substring = 'browser|safari|chrome|firefox|zen'
+run = 'move-node-to-workspace 1'
+
+# Workspace 2: Terminal
+[[on-window-detected]]
+if.app-name-regex-substring = 'terminal|ghostty|kitty'
+run = 'move-node-to-workspace 2'
+
