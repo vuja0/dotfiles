@@ -1,6 +1,6 @@
 export NVM_DIR="$HOME/.nvm"
 export STARSHIP_CONFIG="$HOME/.config/starship/starship.toml"
-
+export PATH="$HOME/.config/emacs/bin:$PATH"
 #the functions that loads the nvm but only after typing the fake nvm,node,npm command
 load_nvm() {
     [ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"
@@ -22,3 +22,4 @@ fi
 
 # Initialize the Starship prompt
 eval "$(starship init zsh)"
+
